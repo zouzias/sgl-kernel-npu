@@ -123,8 +123,11 @@ at::Tensor lightning_indexer(
  * is inversed.
  */
 at::Tensor tri_inv_col_sweep(const at::Tensor &tensor_in);
-} // namespace npu_kernel
 
-} // namespace sglang
+at::Tensor tri_inv_pto_col_sweep(const at::Tensor &tensor_in);
 
-#endif // SGL_KERNEL_NPU_OPS_H
+}  // namespace npu_kernel
+
+}  // namespace sglang
+
+#endif  // SGL_KERNEL_NPU_OPS_H
