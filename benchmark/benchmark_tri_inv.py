@@ -119,7 +119,6 @@ def profile_solve_tril(
         A.ndim >= 4
     ), f"Input tensor must be at least 4-dimensional. Got {A.ndim} dimensions."
     A = A.reshape(-1, A.shape[-3], A.shape[-2], A.shape[-1])
-    seq_len = A.numel()
 
     def run_solve_tril():
         _ = inv_fn(A)
