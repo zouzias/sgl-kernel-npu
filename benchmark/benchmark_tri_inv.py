@@ -98,7 +98,7 @@ def profile_solve_tril(
     D: int,
     chunk_size: int = 64,
     dtype: torch.dtype = torch.float16,
-    inverse_method: str = "baseline",
+    inverse_method: str = "triton",
 ):
     torch.manual_seed(42)
 
