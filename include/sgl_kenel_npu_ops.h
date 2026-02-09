@@ -126,8 +126,8 @@ at::Tensor tri_inv_col_sweep(const at::Tensor &tensor_in);
 
 at::Tensor tri_inv_pto_col_sweep(const at::Tensor &tensor_in);
 
-}  // namespace npu_kernel
+} // namespace npu_kernel
 
-}  // namespace sglang
+} // namespace sglang
 
-#endif  // SGL_KERNEL_NPU_OPS_H
+#endif // SGL_KERNEL_NPU_OPS_H
