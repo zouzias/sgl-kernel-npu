@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 
 _DEFAULT_MAX_CACHE_SIZE = 256 * 1024 * 1024
 
-DEVICE_ID = 1
+DEVICE_ID = 0
 NPU_DEVICE = f"npu:{DEVICE_ID}"
 
 
